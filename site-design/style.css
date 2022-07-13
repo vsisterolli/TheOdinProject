@@ -1,0 +1,90 @@
+* {
+    font-family: 'Roboto';
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.page div {
+    flex: 1;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 10px 200px;
+    padding-bottom: 100px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header h1 {
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+    align-self: flex-start;
+    margin-bottom: 1px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+
+.header a, .header p, button {
+    font-size: 18px;
+    font-weight: normal;
+    color:#E5E7EB;
+    margin:8px;
+    margin-top: 1px;
+}
+
+.header p {
+    align-self: flex-start;
+    margin-left: 1px;
+}
+
+.header .content {
+
+    flex: 1;
+}
+
+.page-top {
+    display: flex;
+    height: 24px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.header-mid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    background-color: gray;
+
+}
+
+button {
+    background-color: #3882F6;
+    border-collapse: separate; 
+    border-radius: 6px;
+    border: hidden;
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    margin-left: 1px;
+    padding: 5px;
+    height: auto;
+
+}
