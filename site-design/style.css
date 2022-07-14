@@ -9,10 +9,6 @@
     height: 100vh;
 }
 
-.page div {
-    flex: 1;
-}
-
 .header {
     background-color: #1F2937;
     padding: 10px 200px;
@@ -35,7 +31,7 @@
     margin-top: 5px;
 }
 
-.header a, .header p, button {
+.header a, .header p, button, .text {
     font-size: 18px;
     font-weight: normal;
     color:#E5E7EB;
@@ -88,3 +84,71 @@ button {
     height: auto;
 
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.text, .illustrations {
+    height: 159px;
+    width: 159px;
+    margin: 28px;
+    margin-top: 2px;
+}
+
+.text {
+    color: black;
+}
+
+
+.illustrations {
+    height: 159px;
+    width: 159px;
+    margin: 22px;
+    margin-bottom: 10px;
+    border: 4px solid #3882F6;
+    border-collapse: separate; 
+    border-radius: 20px;
+}
+
+.phrase {
+    padding: 100px 550px;
+}
+
+.phrase, #motivation {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#motivation {
+    margin-bottom: 10px;
+}
+
+#author {
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+    margin-top: 0px;
+}
+
