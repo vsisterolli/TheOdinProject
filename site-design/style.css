@@ -152,3 +152,46 @@ button {
     margin-top: 0px;
 }
 
+.actioncall {
+    background-color: #3882F6;
+    margin: 100px 400px;
+    border: 4px solid #3882F6;
+    border-collapse: separate; 
+    border-radius: 12px;
+    padding: 20px 100px;
+    display: flex;
+    color:#F9FAF8;
+    flex-direction: row;
+}
+.actioncall div {
+    flex: 0.75;
+    height: 100px;
+}
+
+.actioncall h1 {
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+
+.actioncall p {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#signup {
+    flex: 0.2;
+    text-align: center;
+    margin-left: 5px;
+    border: 2px solid #F9FAF8;
+    padding: 0px;
+    height: 40px;
+    align-self: center;
+}
+
+#copyright {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 25px;
+}
